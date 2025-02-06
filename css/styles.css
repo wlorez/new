@@ -73,7 +73,7 @@ li {
     max-width: 180px;
   }
 
-  .address-ul li a{
+  .address-ul li a:hover{
     text-decoration: underline;
   }
 
