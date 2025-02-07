@@ -53,7 +53,7 @@ li {
     font-size: 32px;
   }
 
-  .footer-menu a:hover{
+  .footer-menu a:hover {
     text-decoration: underline;
   }
 
@@ -73,7 +73,7 @@ li {
     max-width: 180px;
   }
 
-  .address-ul li a:hover{
+  .address-ul li a:hover {
     text-decoration: underline;
   }
 
@@ -99,7 +99,7 @@ li {
     color: #d4bfc4;
   }
 
-  .finish .finish-ul a:hover{
+  .finish .finish-ul a:hover {
     text-decoration: underline;
   }
 
@@ -113,6 +113,7 @@ li {
     background-color: #7a3145;
     height: 476px;
     padding: 32px 32px;
+    overflow: hidden;
   }
   .logo .icon {
     width: 216px;
@@ -129,11 +130,12 @@ li {
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 227px;
     height: 144px;
     gap: 24px;
     top: 32px;
     left: 509px;
+    width: 100%;
+    max-width: 227px;
   }
 
   .footer-menu a {
@@ -144,7 +146,7 @@ li {
     color: #fbfbfb;
   }
 
-  .footer-menu a:hover{
+  .footer-menu a:hover {
     text-decoration: underline;
   }
 
@@ -166,7 +168,7 @@ li {
     margin-bottom: 24px;
     max-width: 215px;
   }
-  .address-ul li .contact:hover{
+  .address-ul li .contact:hover {
     text-decoration: underline;
   }
 
@@ -174,7 +176,6 @@ li {
     display: flex;
     justify-content: space-between;
     margin-top: 170px;
-    
   }
 
   .finish-ul li a {
@@ -280,17 +281,7 @@ li {
   }
 }
 
-
-
-
-
-
-
-
-
 /*bitiş*/
-
-
 
 @media (min-width: 320px) and (max-width: 320px) {
   footer {
@@ -328,7 +319,7 @@ li {
     font-size: 32px;
   }
 
-  .footer-menu a:hover{
+  .footer-menu a:hover {
     text-decoration: underline;
   }
 
@@ -348,7 +339,7 @@ li {
     max-width: 180px;
   }
 
-  .address-ul li a:hover{
+  .address-ul li a:hover {
     text-decoration: underline;
   }
 
@@ -374,7 +365,7 @@ li {
     color: #d4bfc4;
   }
 
-  .finish .finish-ul a:hover{
+  .finish .finish-ul a:hover {
     text-decoration: underline;
   }
 
